@@ -2,17 +2,21 @@ const sum = function(a, b){
     return a + b;
 };
 
-const subtract = null;
+const subtract = (a, b) => a - b;
 
-const multiply = null;
+const multiply = (a, b) => a * b;
 
-const divide = null;
+const divide = (a, b) => a / b;
 
-const modulus = null;
+const modulus = (a, b) => a % b;
 
-const even = null;
+const even = (a) => {
+    return a % 2 === 0 ? true : false;
+};
 
-const odd = null;
+const odd = (a) => {
+    return a % 2 === 0 ? false : true;
+};
 
 module.exports = { 
     sum, 
